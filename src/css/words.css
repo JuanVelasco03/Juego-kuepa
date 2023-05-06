@@ -1,0 +1,12 @@
+.words{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.word{
+    padding: 10px;
+    border: 1px solid #82B3DF;
+    margin: 5px;
+}
+

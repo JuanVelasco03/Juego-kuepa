@@ -1,0 +1,80 @@
+.text{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px auto;
+    border: 2px solid rgb(79, 129, 189);
+    border-radius: 20px;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px;
+}
+
+.identity_title{
+    background-color: #C9DFE4;
+    border-radius: 20px 20px 0px 0px;
+    border-left: 2px solid #969698;
+    border-right: 2px solid #969698;
+    border-top: 2px solid #969698;
+    height: 25%;
+    padding: 20px;
+}
+
+.identity_card h2{
+    width: 100%;
+}
+
+.identity_card{
+    width: 100%;
+    height: 80%;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 2px solid #969698;
+    border-right: 2px solid #969698;
+    border-left: 2px solid #969698;
+    padding: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.rows{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.identity-image{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.identity_card img{
+    width: 100%;
+    max-height: auto;
+    border: 1px solid #969698;
+    margin: auto;
+}
+
+
+.identity_card .description{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.description p{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
