@@ -1,4 +1,4 @@
-.text{
+.text {
     width: 80%;
     background-color: rgb(255, 255, 255);
     padding: 20px;
@@ -7,14 +7,14 @@
     border-radius: 20px;
 }
 
-.game{
+.game {
     display: flex;
     padding: 30px;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.identity_title{
+.identity_title {
     background-color: #C9DFE4;
     border-radius: 20px 20px 0px 0px;
     border-left: 2px solid #969698;
@@ -24,16 +24,16 @@
     padding: 20px;
 }
 
-.identity_card h2{
+.identity_card h2 {
     width: 100%;
 }
 
-.identity_card{
+.identity_card {
     width: 60%;
     height: 60%;
 }
 
-.identity_card_info{
+.identity_card_info {
     width: 100%;
     height: 100%;
     border-radius: 0px 0px 20px 20px;
@@ -43,54 +43,98 @@
     padding: 10px;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.rows{
+.rows {
     display: grid;
     grid-template-columns: 40% 60%;
 }
 
-.identity-image{
+.identity-image {
     display: flex;
     width: 100%;
     height: 100%;
     padding: 10px;
 }
 
-.identity_card img{
+.identity_card img {
     width: 100%;
     max-height: auto;
     border: 1px solid #969698;
     margin: auto;
 }
 
-.identity_card .description{
+.identity_card .description {
     display: flex;
     width: 100%;
     flex-direction: column;
     padding: 10px;
 }
 
-.description p{
+.description p {
     font-size: large;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.indentity-exercices{ 
+.indentity-exercices {
     color: #172554;
 }
 
-.indentity-exercices h1{ 
+.indentity-exercices h1 {
     text-align: center;
 }
 
-.indentity-exercices h2{ 
+.indentity-exercices h2 {
     text-align: center;
 }
 
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 850px) {
+    .game{
+        flex-direction: column;
+    }
+    .identity_card{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
 
+/* For medium devices */
+@media screen and (max-width: 576px) {
+    .game{
+        flex-direction: column;
+    }
 
+    .identity_card{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 30px;
+    }
 
+    .text{
+        width: 95%;
+    }
+
+    .indentity-exercices h1{
+        font-size: 30px;
+    }
+
+    .indentity-exercices h1{
+        font-size: 15px;
+    }
+
+    .identity_card h2{
+        font-size: 20px;
+    }
+
+    .description p {
+        font-size: 15px;
+    }
+
+}
+
+/* For small devices */

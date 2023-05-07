@@ -5,14 +5,14 @@ import { resetDefaultValue } from "../services/resetDefaultValue"
 
 export const nextLevel = (validacion: boolean, exercise: number, setExercise: any, information: any, setListRandom: any, personRandom: any, numData: number, numberList: number) => {
 
-    if (exercise >= 15 && validacion) {
+    if (exercise == 15 && validacion) {
         Swal.fire({
             icon: 'success',
             title: 'Felicidades!',
             text: 'Acabas de completar los 15 ejercicios de los 3 niveles, da click en ok para volver a empezar'
         }).then(res => {
             if (!res.isConfirmed || res.isConfirmed) {
-                setExercise(1)
+                location.reload()
             }
         })
     } else {

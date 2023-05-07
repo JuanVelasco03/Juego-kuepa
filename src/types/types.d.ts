@@ -12,3 +12,14 @@ export interface IInformation {
     ages: {[]},
     nationalities: {[]}
 }
+
+export interface IResetValue{
+    personRandomLevel: any
+}
+
+export interface IDefaultData {
+    element: string,
+    id: string,
+    gender?: string,
+    list: number
+}

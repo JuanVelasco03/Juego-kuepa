@@ -4,6 +4,8 @@
     height: 300px;
 }
 
+
+
 .word {
     padding: 10px;
     border: 1px solid #82B3DF;
@@ -42,3 +44,24 @@
     transform: scale(1.1);
     /* color de fuente hover */
 }
+
+@media screen and (max-width: 850px) {
+    .words{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+
+
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .words-button{
+        padding: 10px 5px;
+    }
+}
+

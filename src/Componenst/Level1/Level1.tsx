@@ -14,7 +14,7 @@ const personRandom = getRandomPersonInformationLevel1(informationL1)
 
 export const Level1 = ({ exercise, setExercise }: IProps) => {
     // const personRandomLevel2 = getRandomPersonInformation();
-    const [listRandomLevel1, setListRandomLevel1] = useState<Array<any | undefined>>(personRandom[0])
+    const [listRandomLevel1, setListRandomLevel1] = useState<Array<any>>(personRandom[0])
 
     const handleClick = () => {
         const validateLevel1 = listRandomLevel1[1].list === 3 && listRandomLevel1[0].list === 4
