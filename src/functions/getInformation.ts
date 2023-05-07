@@ -1,78 +1,268 @@
-export const information = {
-    nombres: [{
+import { IInformation,  } from "../types/types"
+
+export const informationL1:IInformation = {
+    names: [{
         id: 1,
-        nombre: "Mariela",
+        name: "Mariela",
+        gender: "Femenino",
+        nationality: "Dominicana"
     },
     {
         id: 2,
-        nombre: "Juan Antonio"
+        name: "Juan Antonio",
+        gender: "Masculino",
+        nationality: "Dominicano"
     },
     {
         id: 3,
-        nombre: "Manuel"
+        name: "Manuel",
+        gender: "Masculino",
+        nationality: "Dominicano"
     },
     {
         id: 4,
-        nombre: "Daniel"
+        name: "Daniel",
+        gender: "Masculino",
+        nationality: "Dominicano"
     },
     {
         id: 5,
-        nombre: "Alejandra"
+        name: "Alejandra",
+        gender: "Femenino",
+        nationality: "Dominicana"
     }
     ],
-    apellidos: [
+    surNames: [
         {
             id: 1,
-            apellido: "Mirabal",
+            surName: "Mirabal",
         },
         {
             id: 2,
-            apellido: "Guzman",
+            surName: "Guzman",
         },
         {
             id: 3,
-            apellido: "Duarte",
+            surName: "Duarte",
         },
         {
             id: 4,
-            apellido: "Gonzalez",
+            surName: "Gonzalez",
         },
         {
             id: 5,
-            apellido: "Gomez",
+            surName: "Gomez",
         }],
-    edades: [
+    ages: [
         {
             id: 1,
-            edad: "Cinco años",
+            age: "Cinco años",
         },
         {
             id: 2,
-            edad: "Seis años",
+            age: "Seis años",
         },
         {
             id: 3,
-            edad: "Siete años",
-
+            age: "Siete años",
         },
         {
             id: 4,
-            edad: "Ocho años",
-
+            age: "Ocho años",
         },
         {
             id: 5,
-            edad: "Nueve años",
+            age: "Nueve años",
         }
     ],
-    nacionalidad: [
+    nationalities: [
         {
             id: 1,
-            nacionalidad: "Dominicana",
+            nationality: "Dominicana",
         },
         {
             id: 1,
-            nacionalidad: "Dominicano",
+            nationality: "Dominicano",
+        }
+    ]
+}
+
+export const informationL2:IInformation = {
+    names: [{
+        id: 1,
+        name: "Andrea",
+        gender: "Femenino",
+        nationality: "Dominicana"
+    },
+    {
+        id: 2,
+        name: "Sara",
+        gender: "Femenino",
+        nationality: "Dominicana"
+
+    },
+    {
+        id: 3,
+        name: "Roberto",
+        gender: "Masculino",
+        nationality: "Dominicano"
+    },
+    {
+        id: 4,
+        name: "Gustavo",
+        gender: "Masculino",
+        nationality: "Dominicano"
+    },
+    {
+        id: 5,
+        name: "Felipe",
+        gender: "Masculino",
+        nationality: "Dominicano"
+    }
+    ],
+    surNames: [
+        {
+            id: 1,
+            surName: "Reyes",
+        },
+        {
+            id: 2,
+            surName: "Peña",
+        },
+        {
+            id: 3,
+            surName: "Santana",
+        },
+        {
+            id: 4,
+            surName: "Vanegas",
+        },
+        {
+            id: 5,
+            surName: "Diaz",
+        }],
+    ages: [
+        {
+            id: 1,
+            age: "Cinco años",
+        },
+        {
+            id: 2,
+            age: "Seis años",
+        },
+        {
+            id: 3,
+            age: "Siete años",
+
+        },
+        {
+            id: 4,
+            age: "Ocho años",
+
+        },
+        {
+            id: 5,
+            age: "Nueve años",
+        }
+    ],
+    nationalities: [
+        {
+            id: 1,
+            nationality: "Dominicana",
+        },
+        {
+            id: 1,
+            nationality: "Dominicano",
+        }
+    ]
+}
+
+export const informationL3:IInformation = {
+    names: [{
+        id: 1,
+        name: "Juan",
+        gender: "Masculino",
+        nationality: "Dominicano"
+    },
+    {
+        id: 2,
+        name: "Martin",
+        gender: "Masculino",
+        nationality: "Dominicano"
+
+    },
+    {
+        id: 3,
+        name: "Lorena",
+        gender: "Femenino",
+        nationality: "Dominicana"
+    },
+    {
+        id: 4,
+        name: "Vanessa",
+        gender: "Femenino",
+        nationality: "Dominicana"
+    },
+    {
+        id: 5,
+        name: "Diego",
+        gender: "Masculino",
+        nationality: "Dominicano"
+    }
+    ],
+    surNames: [
+        {
+            id: 1,
+            surName: "Reyes",
+        },
+        {
+            id: 2,
+            surName: "Peña",
+        },
+        {
+            id: 3,
+            surName: "Santana",
+        },
+        {
+            id: 4,
+            surName: "Vanegas",
+        },
+        {
+            id: 5,
+            surName: "Ruiz",
+        }],
+    ages: [
+        {
+            id: 1,
+            age: "Cinco años",
+        },
+        {
+            id: 2,
+            age: "Seis años",
+        },
+        {
+            id: 3,
+            age: "Siete años",
+
+        },
+        {
+            id: 4,
+            age: "Ocho años",
+
+        },
+        {
+            id: 5,
+            age: "Nueve años",
+        }
+    ],
+    nationalities: [
+        {
+            id: 1,
+            nationality: "Dominicana",
+        },
+        {
+            id: 1,
+            nationality: "Dominicano",
         }
     ]
 }

@@ -1,4 +1,4 @@
-import Level1 from './Componenst/Level1/Level1.tsx'
+import Level1 from './Componenst/Levels.tsx'
 import './css/App.css'
 
 function App() {
