@@ -4,7 +4,7 @@ import { Level2 } from './Level2/Level2.tsx'
 import { Level3 } from './Level 3/Level3.tsx'
 
 function Levels() {
-    const [exercise, setExercise] = useState<number>(10)
+    const [exercise, setExercise] = useState<number>(1)
 
     return (
         <>
